@@ -19,7 +19,7 @@ Prior to executing solution.sh, a database containing the versioning needs to be
 ```
 
 ## Suggested Solution:
-Solution script can be found at: [solution.sh](https://github.com/ziyenl/devops-scenario/blob/master/solution.sh)
+The solution for the devops scenario can be found at: [solution.sh](https://github.com/ziyenl/devops-scenario/blob/master/solution.sh)
 ```bash
 ./solution.sh sql_scripts
 ```
