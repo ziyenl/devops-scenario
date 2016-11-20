@@ -21,8 +21,15 @@ for file in $(find $directory -name '*.sql')
 		if [ "${file_name:0:3}" -gt "$current_db_version" ]
 		then
 			echo "Running $file for update ${file_name:0:3}"
-			mysql -u root < $file
-			mysql -u root -e "use tracker_db; update versioning set version=${file_name:0:3}"
+			# proceed to modify version in versioning table if the sql statements in a given sql file has been executed successfully
+			if mysql -u root < $file
+			then 
+				echo "Successfully executed $file"
+				mysql -u root -e "use tracker_db; update versioning set version=${file_name:0:3}"
+			else
+				echo "An error occured while executing $file"
+				exit 1
+			fi
 		fi
 	done
 exit 0
