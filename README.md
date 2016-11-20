@@ -43,4 +43,4 @@ Output of failed scripts execution:
 ![alt text](https://github.com/ziyenl/devops-scenario/blob/master/images/fail_output.png "Failed output")
 
 ## Improvement:
-- There could be future scenario where the .sql might exceed the 3-digit threshold. Improvement to the script is needed to cater for the future occurence of that scenario.
+There could be future scenario where the incremental name of the .sql might exceed the 3-digit threshold. Improvement to the script is needed to cater for the future occurence of that scenario.
