@@ -1,5 +1,5 @@
 #!/bin/sh
-# This script executes an initial database setup script
+# This script executes an initial database creation and setup script
 # to create a table to contain the versioning metadata
 
 echo "Setting up intial versioning metadata"
