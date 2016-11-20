@@ -14,6 +14,7 @@ then
 	exit 1
 fi
 
+# loop through list of scripts and apply sql scripts upon db for version greater than current db version.
 for file in $(find $directory -name '*.sql')
 	do
 		file_name="${file##*/}"
