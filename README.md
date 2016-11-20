@@ -14,13 +14,13 @@ Please go through the described scenario and write a script, possibly in Unix BA
 - mysql Ver 14.14 Distrib 5.6.34
 
 ## Setup:
-Prior to executing solution.sh, a database containing the versioning needs to be set up. The script for setup can be found at: [setup.sh](https://github.com/ziyenl/devops-scenario/blob/master/setup.sh)
+Prior to executing solution.sh, a database containing the versioning needs to be set up. The script for setup can be found at [setup.sh](https://github.com/ziyenl/devops-scenario/blob/master/setup.sh)
 ```bash
 ./setup.sh
 ```
 
 ## Proposed Solution:
-The solution for the devops scenario can be found at: [solution.sh](https://github.com/ziyenl/devops-scenario/blob/master/solution.sh)
+The solution for the devops scenario can be found at [solution.sh](https://github.com/ziyenl/devops-scenario/blob/master/solution.sh)
 ```bash
 ./solution.sh sql_scripts
 ```
