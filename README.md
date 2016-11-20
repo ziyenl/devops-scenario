@@ -13,6 +13,6 @@
 - mysql Ver 14.14 Distrib 5.6.34
 
 ## Suggested Solution:
-- Solution script can be found at: 
+- Solution script can be found at: https://github.com/ziyenl/devops-scenario/blob/master/solution.sh
 
 
