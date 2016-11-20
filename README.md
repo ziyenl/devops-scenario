@@ -14,6 +14,12 @@
 
 ## Setup:
 Prior to executing solution.sh, a database containing the versioning needs to be set up. The script can be found at: [setup.sh](https://github.com/ziyenl/devops-scenario/blob/master/setup.sh)
+```bash
+./setup.sh
+```
 
 ## Suggested Solution:
 Solution script can be found at: [solution.sh](https://github.com/ziyenl/devops-scenario/blob/master/solution.sh)
+```bash
+./solution.sh sql_scripts
+```
