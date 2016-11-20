@@ -39,4 +39,5 @@ else
 fi
 ```
 Output of failed scripts execution:
+
 ![alt text](https://github.com/ziyenl/devops-scenario/blob/master/images/fail_output.png "Failed output")
