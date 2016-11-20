@@ -24,8 +24,8 @@ The solution for the devops scenario can be found at: [solution.sh](https://gith
 ./solution.sh sql_scripts
 ```
 
-## Error Handling:
-Error handling is in place to prevent further execution of other sql files if there are errors in a sql file.
+### Error Handling:
+Error handling is in place to prevent further execution of other sql files if there are errors encountered in one of the sql file.
 ```bash
 if mysql -u root < $file
 then 
