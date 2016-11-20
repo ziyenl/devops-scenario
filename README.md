@@ -23,3 +23,16 @@ The solution for the devops scenario can be found at: [solution.sh](https://gith
 ```bash
 ./solution.sh sql_scripts
 ```
+
+## Error Handling:
+Error handling is in place to prevent further execution of other sql files if there are errors in a sql file.
+```bash
+if mysql -u root < $file
+then 
+  echo "Successfully executed $file"
+	mysql -u root -e "use tracker_db; update versioning set version=${file_name:0:3}"
+else
+	echo "An error occured while executing $file"
+	exit 1
+fi
+```
