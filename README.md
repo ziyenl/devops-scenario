@@ -18,7 +18,7 @@ Prior to executing solution.sh, a database containing the versioning needs to be
 ./setup.sh
 ```
 
-## Solution:
+## Proposed Solution:
 The solution for the devops scenario can be found at: [solution.sh](https://github.com/ziyenl/devops-scenario/blob/master/solution.sh)
 ```bash
 ./solution.sh sql_scripts
@@ -42,5 +42,5 @@ Output of failed scripts execution:
 
 ![alt text](https://github.com/ziyenl/devops-scenario/blob/master/images/fail_output.png "Failed output")
 
-## Improvement:
+## Future  Improvement:
 There could be future scenario where the incremental name of the .sql might exceed the 3-digit threshold. Improvement to the script is needed to cater for the future occurence of that scenario.
