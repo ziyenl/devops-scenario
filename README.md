@@ -23,6 +23,7 @@ The solution for the devops scenario can be found at: [solution.sh](https://gith
 ```bash
 ./solution.sh sql_scripts
 ```
+![alt text]((https://github.com/ziyenl/devops-scenario/blob/master/images/successful_output.png "Successful output")
 
 ### Error Handling:
 Error handling is in place to prevent further execution of other sql files if there are errors encountered in one of the sql file.
@@ -36,3 +37,4 @@ else
 	exit 1
 fi
 ```
+![alt text]((https://github.com/ziyenl/devops-scenario/blob/master/images/fail_output.png "Failed output")
