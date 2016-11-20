@@ -12,5 +12,8 @@
 - CentOS Linux release 7.2.1511 (Core)
 - mysql Ver 14.14 Distrib 5.6.34
 
+## Setup:
+- Prior to executing solution.sh, a database containing the versioning needs to be set up. The script can be found at: [setup.sh](https://github.com/ziyenl/devops-scenario/blob/master/setup.sh)
+
 ## Suggested Solution:
 - Solution script can be found at: [solution.sh](https://github.com/ziyenl/devops-scenario/blob/master/solution.sh)
