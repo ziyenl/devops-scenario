@@ -1,5 +1,5 @@
 # Devops Scenario
-Please go through the described scenario and write a script, possibly in Unix BASH, implementing a fix to the issue below. For the development of the scripts you have 24h and are allowed to use Google and any other material as long as the work submitted was written by you.
+Please go through the described scenario and write a script, possibly in Unix BASH, implementing a fix to the issue below. 
 
 ## Use Case:
 - A database upgrade requires the execution of numbered scripts stored in a folder. E.g. 045.createtable.sql
